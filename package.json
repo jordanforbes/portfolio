@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies":{
+  	"http-server": "^0.9.0",
+  	"core-js": "^2.4.1",
+  	"ejs":"^2.5.6"
+  },
+  "devDependencies":{
+  	"css-loader": "^0.28.0",
+  	"sass-loader": "^6.0.3",
+  	"node-sass": "^4.5.2",
+  	"json-loader": "^0.5.4",
+  	"html-webpack-plugin": "^2.28.0",
+  	"webpack": "~2.4.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "~2.4.2",
+    "webpack-dll-bundles-plugin": "^1.0.0-beta.5",
+    "webpack-merge": "~4.1.0"
+  },
+  "author": "Jordan Forbes",
+  "license": "ISC"
+}
