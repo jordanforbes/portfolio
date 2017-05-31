@@ -1,0 +1,39 @@
+.appbutton{
+	float:left;
+	display:block;
+	// background-color:$btncolor;
+	color:black;
+	height:50px;
+	width:30%;
+	margin:1%;
+	text-align:center;
+	font-size:30px;
+	border-radius:5px;
+	border:2px $btnborder solid
+
+}
+.appbutton:hover{
+		background-color:$btnhover;
+		color:white;
+}
+.appbutton:active{
+	background-color:$btnhover;
+	color:black;
+}
+
+.tab{
+	display:block;
+	float:left;
+	width:100px;
+	height:30px;
+	border:1px $webappborder solid;
+	text-align:center;
+}
+.tab:hover{
+	background-color:$btnhover;
+	color:white;
+}
+.tab:active{
+	background-color:$btnhover;
+	color:black;
+}
