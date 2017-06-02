@@ -1,6 +1,8 @@
 @import 'colors';
 @import 'icons';
 @import 'button';
+@import 'intro';
+@import 'navbar';
 
 //font-family: 'Roboto', sans-serif;
 //font-family: 'Open Sans', sans-serif;
@@ -18,7 +20,7 @@
 }
 .paintspot1{
 	position:absolute;
-	display:inline;
+	display:none;
 	z-index:-1;
 	height:170px;
 	margin-top:-270px;
@@ -45,25 +47,7 @@ div{
 	margin-bottom:0%;
 	// border:1px black solid;
 }
-.name{
-//font-family: 'Lobster', cursive;
-	font-family: 'Shrikhand', cursive;
-	font-size:80px;
-	color:red;
-	text-shadow: 2px 2px $fontcolor;
-}
-.hello{
-	font-size:50px;
-	font-family: 'Rock Salt', cursive;
-}
-.mynamis{
-	font-size:30px;
-	font-family: 'Indie Flower', cursive;
-}
-.whatiam{
-	font-size:30px;
-	font-family: 'Indie Flower', cursive;
-}
+
 .header{
 	// background-color:white;
 }

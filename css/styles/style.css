@@ -4,7 +4,7 @@
 .appbutton {
   float: left;
   display: block;
-  background-color: #D3D6EC;
+  background-color: #FFEFDA;
   color: black;
   height: 50px;
   width: 30%;
@@ -22,16 +22,6 @@
   background-color: gray;
   color: black; }
 
-.tab {
-  font-size: 20px;
-  margin-top: 40px;
-  display: block;
-  float: left;
-  width: 100px;
-  height: 30px;
-  text-align: center;
-  margin-bottom: 0%; }
-
 .navbtn:hover {
   color: gray; }
 
@@ -39,13 +29,57 @@
   background-color: gray;
   color: black; }
 
+.intro {
+  color: #FFEFDA; }
+
+.name {
+  font-family: 'Shrikhand', cursive;
+  font-size: 120px;
+  color: #FFEFDA; }
+
+.hello {
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.mynamis {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.whatiam {
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.webdev {
+  font-family: 'Shrikhand', cursive;
+  color: #FFEFDA; }
+
+.artist {
+  font-family: 'Shrikhand', cursive;
+  color: #FFEFDA; }
+
+.navbar {
+  background-color: black;
+  width: 100%; }
+
+.tab {
+  font-size: 20px;
+  display: block;
+  float: left;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 0%; }
+
 * {
   font-family: 'Open Sans', sans-serif;
   color: #FFEFDA; }
 
 .paintspot1 {
   position: absolute;
-  display: inline;
+  display: none;
   z-index: -1;
   height: 170px;
   margin-top: -270px;
@@ -71,24 +105,6 @@ div {
   height: 72px;
   margin-bottom: 0%; }
 
-.name {
-  font-family: 'Shrikhand', cursive;
-  font-size: 80px;
-  color: red;
-  text-shadow: 2px 2px #FFEFDA; }
-
-.hello {
-  font-size: 50px;
-  font-family: 'Rock Salt', cursive; }
-
-.mynamis {
-  font-size: 30px;
-  font-family: 'Indie Flower', cursive; }
-
-.whatiam {
-  font-size: 30px;
-  font-family: 'Indie Flower', cursive; }
-
 .headbar {
   float: left;
   display: block; }
@@ -96,7 +112,7 @@ div {
 .box {
   display: block;
   height: 140px;
-  background-color: #788584;
+  background-color: #271700;
   width: 100%; }
 
 .ghostypic {
