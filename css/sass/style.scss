@@ -2,36 +2,95 @@
 @import 'icons';
 @import 'button';
 
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Open Sans', sans-serif;
+// font-family: 'Lobster', cursive;
+// font-family: 'Rock Salt', cursive;
+// font-family: 'Covered By Your Grace', cursive;
+// font-family: 'Julius Sans One', sans-serif;
+// font-family: 'Shrikhand', cursive;
+// font-family: 'Alfa Slab One', cursive;
+
+*{
+	font-family: 'Open Sans', sans-serif;
+		color:#FFEFDA;
+
+}
+.paintspot1{
+	position:absolute;
+	display:inline;
+	z-index:-1;
+	height:170px;
+	margin-top:-270px;
+	margin-left:-70px;
+	opacity:0.75;
+}
+.apppage{
+	display:block;
+}
+.contactpage{
+	display:none;
+}
+.aboutpage{
+	display:none;
+}
+body{
+	background-image: url("../../assets/background.png");
+}
 div{
 	/*border: 1px dashed black;*/
 }
+.navbar{
+	height:72px;
+	margin-bottom:0%;
+	// border:1px black solid;
+}
 .name{
-	font-size:30px
+//font-family: 'Lobster', cursive;
+	font-family: 'Shrikhand', cursive;
+	font-size:80px;
+	color:red;
+	text-shadow: 2px 2px $fontcolor;
+}
+.hello{
+	font-size:50px;
+	font-family: 'Rock Salt', cursive;
+}
+.mynamis{
+	font-size:30px;
+	font-family: 'Indie Flower', cursive;
+}
+.whatiam{
+	font-size:30px;
+	font-family: 'Indie Flower', cursive;
+}
+.header{
+	// background-color:white;
 }
 
-.goofyphoto{
-	height:350px;
-	margin-left:-90px;
-}
-.face{
-	height:250px;
-	width:250px;
-	overflow:hidden;
-	border-radius:100%;
-	display:block;
+.headbar{
 	float:left;
+	display:block;
+
 }
 
 .box{
 	display:block;
-	border:2px solid $webappborder;
-	border-radius:3px;
+	// border:1px solid $webappborder;
+	// border-radius:3px;
 	height:140px;
+	background-color:$mainbg;
+	// margin-left:-28px;
+	width:100%;
 
 }
-.tab{
-	width:100px;
-	height:30px;
-	border:1px $webappborder solid;
-	text-align:center;
+
+.ghostypic{
+	display: block;
+	float:right;
+	height:450px;
+	// opacity:0.7;
+	margin-top:-50px;
+	margin-right:-320px;
 }
+

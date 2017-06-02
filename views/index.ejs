@@ -2,36 +2,64 @@
 <html>
 	<head>
 		<title>Jordan Forbes</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Covered+By+Your+Grace|Indie+Flower|Julius+Sans+One|Lobster|Rock+Salt|Shrikhand" rel="stylesheet">
+
+
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 		<script src="https://use.fontawesome.com/416bc626ed.js"></script>
 		<link rel= "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="../css/style.css/style.css">
+		<link rel="stylesheet" href="../css/styles/style.css">
 	</head>
 	<body>
 	<div class="container">
-		<div class="row">
+		<div class="header row">
+			<%include partials/header%>
+		</div>
+		<div class=" row">
 			<% include partials/navbar%>
 		</div>
+
 		<div class="row">
-			
-			<div class="col-md-10">
-				<div class="row">
-					<div class="tab">
-						webapps
-					</div>
-					<div class="tab">
-						contact
-					</div>
-				</div>
-				<div class="row">
-					<div class="container-fluid box">
-					<% include partials/_apppage%>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2">
+			<!-- <div class="col-md-3 headbar">
 				<% include partials/sidebar%>
+			</div> -->
+			
+			<div class="col-md-9 col-sm-5">
+			
+				
+				<div class="row">
+					<div class=" box">
+					<div class="apppage"><% include partials/_apppage%></div>
+					<div class="contactpage"><%include partials/_contactpage%></div>
+					<div class="aboutpage"><%include partials/aboutpage%></div>
+					</div>
+				</div>
 			</div>
 		</div>
+
 	</div>
+	<script>
+		$(".contactbtn").click( function(){
+			$(".apppage").css("display","none")
+			$(".contactpage").css("display","block")
+			$(".aboutpage").css("display","none")
+		})
+		$(".webappbtn").click( function(){
+			$(".apppage").css("display","block")
+			$(".contactpage").css("display","none")
+			$(".aboutpage").css("display","none")
+		})
+		$(".aboutbtn").click( function(){
+			$(".apppage").css("display","none")
+			$(".contactpage").css("display","none")
+			$(".aboutpage").css("display","block")
+		})
+
+
+	</script>
 	</body>
 </html>

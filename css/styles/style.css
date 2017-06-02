@@ -1,0 +1,107 @@
+.fa {
+  font-size: 40px; }
+
+.appbutton {
+  float: left;
+  display: block;
+  background-color: #D3D6EC;
+  color: black;
+  height: 50px;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px #F6F7FF solid; }
+
+.appbutton:hover {
+  background-color: gray;
+  color: white; }
+
+.appbutton:active {
+  background-color: gray;
+  color: black; }
+
+.tab {
+  font-size: 20px;
+  margin-top: 40px;
+  display: block;
+  float: left;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 0%; }
+
+.navbtn:hover {
+  color: gray; }
+
+.navbtn:active {
+  background-color: gray;
+  color: black; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFEFDA; }
+
+.paintspot1 {
+  position: absolute;
+  display: inline;
+  z-index: -1;
+  height: 170px;
+  margin-top: -270px;
+  margin-left: -70px;
+  opacity: 0.75; }
+
+.apppage {
+  display: block; }
+
+.contactpage {
+  display: none; }
+
+.aboutpage {
+  display: none; }
+
+body {
+  background-image: url("../../assets/background.png"); }
+
+div {
+  /*border: 1px dashed black;*/ }
+
+.navbar {
+  height: 72px;
+  margin-bottom: 0%; }
+
+.name {
+  font-family: 'Shrikhand', cursive;
+  font-size: 80px;
+  color: red;
+  text-shadow: 2px 2px #FFEFDA; }
+
+.hello {
+  font-size: 50px;
+  font-family: 'Rock Salt', cursive; }
+
+.mynamis {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive; }
+
+.whatiam {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive; }
+
+.headbar {
+  float: left;
+  display: block; }
+
+.box {
+  display: block;
+  height: 140px;
+  background-color: #788584;
+  width: 100%; }
+
+.ghostypic {
+  display: block;
+  float: right;
+  height: 450px;
+  margin-top: -50px;
+  margin-right: -320px; }

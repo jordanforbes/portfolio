@@ -1,0 +1,92 @@
+.fa {
+  font-size: 40px; }
+
+.appbutton {
+  float: left;
+  display: block;
+  background-color: #D3D6EC;
+  color: black;
+  height: 50px;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px #F6F7FF solid; }
+
+.appbutton:hover {
+  background-color: gray;
+  color: white; }
+
+.appbutton:active {
+  background-color: gray;
+  color: black; }
+
+.tab {
+  margin-top: 40px;
+  display: block;
+  float: left;
+  width: 100px;
+  height: 30px;
+  border: 1px black solid;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 0%; }
+
+.tab:hover {
+  background-color: gray;
+  color: white; }
+
+.tab:active {
+  background-color: gray;
+  color: black; }
+
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+.apppage {
+  display: block; }
+
+.contactpage {
+  display: none; }
+
+body {
+  background-color: #E6FFFF; }
+
+div {
+  /*border: 1px dashed black;*/ }
+
+.navbar {
+  height: 72px;
+  margin-bottom: 0%;
+  border: 1px black solid; }
+
+.name {
+  font-size: 30px; }
+
+.header {
+  background-color: white; }
+
+.goofyphoto {
+  height: 350px;
+  margin-left: -90px; }
+
+.face {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  border: 3px black solid; }
+
+.headbar {
+  float: left;
+  display: block; }
+
+.box {
+  display: block;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 140px;
+  background-color: white;
+  width: 100%; }
