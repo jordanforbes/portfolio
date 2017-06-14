@@ -12,7 +12,8 @@ var portnum = 9000
 // setup middleware
 app.use(express.static(pub))
 app.use('/views', express.static(pub + '/views'));
-app.use('/css', express.static(__dirname + '/css'))
+app.use('/public', express.static(pub + '/public'));
+app.use('/scss', express.static(pub + '/scss'))
 app.use('/assets', express.static(pub + '/assets'))
 
 //view engine
