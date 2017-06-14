@@ -7,7 +7,7 @@ var pub = __dirname
 
 var app = express()
 
-var portnum = 9000
+var portnum = 3000
 
 // setup middleware
 app.use(express.static(pub))
