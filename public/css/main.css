@@ -1,0 +1,177 @@
+.fa {
+  font-size: 40px; }
+
+.appbutton {
+  float: left;
+  display: block;
+  background-color: #FFEFDA;
+  color: black;
+  height: 50px;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px #F6F7FF solid; }
+
+.appbutton:hover {
+  background-color: gray;
+  color: white; }
+
+.appbutton:active {
+  background-color: gray;
+  color: black; }
+
+.intro {
+  color: #FFEFDA; }
+
+.name {
+  font-family: 'Shrikhand', cursive;
+  font-size: 120px;
+  color: #FFEFDA; }
+
+.hello {
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.mynamis {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.whatiam {
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  color: #FFEFDA; }
+
+.webdev {
+  font-family: 'Shrikhand', cursive;
+  color: #FFEFDA; }
+
+.artist {
+  font-family: 'Shrikhand', cursive;
+  color: #FFEFDA; }
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 77px;
+  display: block;
+  margin-bottom: 0%;
+  float: left; }
+
+.tab {
+  font-size: 20px;
+  margin-top: -40px;
+  display: block;
+  float: left;
+  padding: 0px 20px 0px 20px;
+  height: 30px;
+  margin-bottom: 0%;
+  margin-left: -10px; }
+
+.tab .fa {
+  padding-bottom: 20px;
+  margin-top: -4px; }
+
+.nameplate {
+  font-size: 35px;
+  font-family: 'shrikhand';
+  display: block;
+  padding: 0px 0px 0px 0px;
+  float: left; }
+
+.faceshot {
+  border: 1px solid #FFEFDA;
+  height: 150px;
+  width: 160px;
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-left: -32px;
+  margin-top: -4px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  z-index: 1; }
+  .faceshot .goodphoto {
+    margin-left: -40px;
+    height: 200px; }
+
+.goodphoto:hover {
+  filter: grayscale(100%); }
+
+.navbtn {
+  display: block;
+  margin-top: 10px;
+  float: left; }
+
+.navbtn:hover {
+  color: gray; }
+
+.navbtn:active {
+  background-color: gray;
+  color: black; }
+
+.buttonlist {
+  padding: 10px; }
+
+.naviconlist {
+  display: block;
+  float: right; }
+
+.buttonlist {
+  padding-left: -10px;
+  display: block; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFEFDA; }
+
+.paintspot1 {
+  position: absolute;
+  display: none;
+  z-index: -1;
+  height: 170px;
+  margin-top: -270px;
+  margin-left: -70px;
+  opacity: 0.75; }
+
+.apppage {
+  display: block; }
+
+.contactpage {
+  display: none; }
+
+.aboutpage {
+  display: none; }
+
+body {
+  background-color: #455A64; }
+
+div {
+  /*border: 1px dashed black;*/ }
+
+.headbar {
+  float: left;
+  display: block; }
+
+.box {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 700px;
+  background-color: gray;
+  width: 131%;
+  margin-top: -10%;
+  margin-left: 1%; }
+
+.ghostypic {
+  display: block;
+  float: right;
+  height: 450px;
+  margin-top: -50px;
+  margin-right: -320px; }
+
+.content {
+  margin-top: 170px; }

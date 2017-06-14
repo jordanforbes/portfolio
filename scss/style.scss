@@ -1,0 +1,84 @@
+@import 'colors';
+@import 'icons';
+@import 'button';
+@import 'intro';
+@import 'navbar';
+
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Open Sans', sans-serif;
+// font-family: 'Lobster', cursive;
+// font-family: 'Rock Salt', cursive;
+// font-family: 'Covered By Your Grace', cursive;
+// font-family: 'Julius Sans One', sans-serif;
+// font-family: 'Shrikhand', cursive;
+// font-family: 'Alfa Slab One', cursive;
+
+*{
+	font-family: 'Open Sans', sans-serif;
+		color:#FFEFDA;
+
+}
+.paintspot1{
+	position:absolute;
+	display:none;
+	z-index:-1;
+	height:170px;
+	margin-top:-270px;
+	margin-left:-70px;
+	opacity:0.75;
+}
+.apppage{
+	display:block;
+}
+.contactpage{
+	display:none;
+}
+.aboutpage{
+	display:none;
+}
+body{
+	background-color:$bgcolor;
+}
+div{
+	/*border: 1px dashed black;*/
+}
+
+.header{
+	// background-color:white;
+}
+
+.headbar{
+	float:left;
+	display:block;
+
+}
+
+.box{
+	position:absolute;
+	z-index:-1;
+	display:block;
+	// border:1px solid $webappborder;
+	// border-radius:3px;
+	// height:140px;
+	height:700px;
+	// background-color:$mainbg;
+	background-color:gray;
+	// margin-left:-28px;
+	width:131%;
+	margin-top:-10%;
+	margin-left:1%;
+
+}
+
+.ghostypic{
+	display: block;
+	float:right;
+	height:450px;
+	// opacity:0.7;
+	margin-top:-50px;
+	margin-right:-320px;
+}
+.content{
+	margin-top:170px;
+}
+
