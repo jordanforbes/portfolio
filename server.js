@@ -53,7 +53,7 @@ app.use(function(err, req, res, next) {
 });
 
 if (!module.parent) {
-  var port = process.env.PORT || portnum;
+  var port = process.env.PORT || 3000;
   app.listen(port);
-  console.log('Express started on port '+ portnum);
+  console.log('Express started on port '+ 3000);
 }
