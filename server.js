@@ -23,7 +23,7 @@ app.engine('ejs', engine.__express)
 
 //index
 app.get('/', function(req, res){
-	res.render('newindex')
+	res.render('pages/index')
 })
 
 //webapps page
